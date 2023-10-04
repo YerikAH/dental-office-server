@@ -1,0 +1,33 @@
+{
+  "productos": [
+    {
+      "id": 0,
+      "name": "Algo",
+      "description": "",
+      "price": 0,
+      "descount": 0,
+      "stock": 100,
+      "comments": [
+        {
+          "title": "",
+          "text": "",
+          "user": {
+            "name": "",
+            "email": ""
+          }
+        }
+      ]
+    }
+  ],
+  "user": [
+    {
+      "name": "",
+      "email": "",
+      "address": "",
+      "phone_number": "",
+      "password": "",
+      "bag": [],
+      "products_like": []
+    }
+  ]
+}

@@ -5,12 +5,14 @@ import { dirname, join } from "path";
 import { fileURLToPath } from "url";
 import { PORT } from "./config.js";
 import productsRoutes from "./routes/products.routes.js";
+import "./database.js";
 
 const app = express();
 // const __dirname = dirname(fileURLToPath(import.meta.url))
 
-app.use(morgan);
+app.use(morgan("dev"));
 app.use(cors());
+app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(productsRoutes);
 
