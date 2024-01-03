@@ -1,5 +1,5 @@
 {
-  "name": "dental-office-api",
+  "name": "dental-office-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,16 +7,23 @@
   "scripts": {
     "dev": "nodemon src/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YerikAH/dental-office-server.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.0.1"
+  "bugs": {
+    "url": "https://github.com/YerikAH/dental-office-server/issues"
   },
+  "homepage": "https://github.com/YerikAH/dental-office-server#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "mongoose": "^7.5.0",
-    "morgan": "^1.10.0"
+    "mysql2": "^3.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   }
 }
